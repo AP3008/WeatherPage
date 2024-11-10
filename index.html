@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Permanent+Marker">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    
+     <!-- <div class = "banner">
+        🌞 This demo needs an OpenWeather API key to work. Get yours here for free!
+      <!--
+
+        HW: Design User Interface with heading, form and button.
+        Then design a card like the one on the screen. 
+
+        If not connected
+        HW: Finish previous HW
+        
+        URL: https://codepen.io/tutsplus/details/gObLaEP
+      
+      </div>-->
+      <div class = "container">
+        <h1>Weather App</h1>
+        <form>
+          <input  id = "fourm" type="text" placeholder="Search for a city" />
+          <button type="button" onclick = "addCard()">SUBMIT</button>
+          <span class="message"></span>
+        </form>  
+      </div>
+      <p id = "error" class = "error"></p>
+      <div id="cards" class = "cards">
+        
+      </div>
+      
+    <script src="script.js"></script>
+  </body>
+</html>
